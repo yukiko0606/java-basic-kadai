@@ -19,7 +19,8 @@ public class Car_Chapter15 {
 			default -> 10;
 		
 		};
-		System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
+		this.gear = afterGear;
+		System.out.println("ギア1"+ "から" + this.gear + "に切り替えました");
 	}
 	
 	//ギアチェンジ後の速度を表示する
